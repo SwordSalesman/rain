@@ -1,6 +1,6 @@
 # rain.py
 # turn your console into a soothing fall window
-# by luke cannon
+# by jack way
 # feb 2021
 
 import numpy as np
@@ -9,6 +9,8 @@ import time
 
 sky = np.zeros((25, 80), str)
 sky[True] = ' '
+
+print("deez nuts")
 
 clear_str = ''
 for i in range(100): clear_str += '\n'
